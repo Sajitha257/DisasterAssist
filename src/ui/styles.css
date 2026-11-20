@@ -1,0 +1,256 @@
+/* DisasterAssist AI styles - dark blue, orange and white theme.
+
+   The look is the same in light and dark browsers: the page is always drawn with the palette
+   below. Every kind of note also has a text label, so meaning never depends on colour alone.
+   Chatbot-only styles are in chatbot.css. */
+
+:root {
+    --da-navy: #0b2545;
+    --da-navy-2: #13396b;
+    --da-navy-soft: #e8eef8;
+    --da-orange: #f28c28;
+    --da-orange-dark: #c2570c;      /* orange used for text / buttons on white (readable contrast) */
+    --da-orange-soft: #fff3e2;
+    --da-ink: #14213d;
+    --da-muted: #475569;
+    --da-bg: #f3f6fb;
+    --da-card: #ffffff;
+    --da-line: #d3dcea;
+    --da-red: #b42318;
+    --da-red-soft: #fdecea;
+    --da-blue: #1d5fa8;
+    --da-blue-soft: #e8f1fb;
+    --da-violet: #4c51bf;
+    --da-violet-soft: #eeeffc;
+    --da-teal: #0f766e;
+    --da-teal-soft: #e5f4f1;
+    --da-radius: 12px;
+    --da-shadow: 0 1px 2px rgba(11, 37, 69, 0.08), 0 2px 8px rgba(11, 37, 69, 0.06);
+}
+
+/* ---------- Page frame and Gradio colours ---------- */
+body, gradio-app { background: var(--da-bg) !important; color-scheme: light; }
+
+.gradio-container {
+    max-width: 1100px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background: transparent !important;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color-scheme: light;
+    --body-background-fill: var(--da-bg);
+    --body-text-color: var(--da-ink);
+    --body-text-color-subdued: var(--da-muted);
+    --background-fill-primary: #ffffff;
+    --background-fill-secondary: var(--da-bg);
+    --block-background-fill: transparent;
+    --block-border-color: transparent;
+    --block-border-width: 0px;
+    --block-shadow: none;
+    --border-color-primary: var(--da-line);
+    --block-label-text-color: var(--da-navy);
+    --block-title-text-color: var(--da-navy);
+    --input-background-fill: #ffffff;
+    --input-border-color: #9fb0c8;
+    --input-border-color-focus: var(--da-orange);
+    --input-shadow-focus: 0 0 0 3px rgba(242, 140, 40, 0.3);
+    --link-text-color: var(--da-blue);
+    --link-text-color-hover: var(--da-navy);
+    --link-text-color-visited: var(--da-blue);
+    --button-primary-background-fill: var(--da-orange-dark);
+    --button-primary-background-fill-hover: #a84a08;
+    --button-primary-text-color: #ffffff;
+    --button-primary-border-color: var(--da-orange-dark);
+    --button-secondary-background-fill: #ffffff;
+    --button-secondary-background-fill-hover: var(--da-navy-soft);
+    --button-secondary-text-color: var(--da-navy);
+    --button-secondary-border-color: var(--da-navy);
+    --color-accent: var(--da-orange);
+}
+
+/* Main tabs: dark blue text, orange underline for the open tab */
+.gradio-container button[role="tab"] {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--da-navy);
+    padding: 0.7rem 1rem;
+}
+.gradio-container button[role="tab"][aria-selected="true"] {
+    color: var(--da-orange-dark);
+    border-color: var(--da-orange);
+}
+/* The six disaster cards replace the tab bar of the inner group */
+#da-cat-tabs [role="tablist"], #da-cat-tabs .tab-wrapper { display: none !important; }
+
+.gradio-container button:focus-visible, .gradio-container a:focus-visible,
+.da-page summary:focus-visible {
+    outline: 3px solid var(--da-orange);
+    outline-offset: 2px;
+}
+
+/* ---------- Shared buttons ---------- */
+.gradio-container button.primary {
+    border-radius: 10px;
+    font-weight: 700;
+}
+.gradio-container button.secondary { border-radius: 10px; font-weight: 600; }
+.da-btn-main { min-height: 46px; font-size: 1rem; }
+
+/* ---------- Home ---------- */
+.da-hero {
+    background: var(--da-navy) !important;
+    border-radius: var(--da-radius);
+    border-bottom: 5px solid var(--da-orange);
+    padding: 1.6rem 1.8rem !important;
+    margin-bottom: 1rem;
+}
+.da-hero h1 { margin: 0 0 0.4rem; font-size: 2.2rem; color: #ffffff !important; letter-spacing: 0.01em; }
+.da-hero p { margin: 0; font-size: 1.1rem; line-height: 1.55; color: #dce7f6 !important; max-width: 46rem; }
+
+.da-grid { gap: 1rem !important; }
+.da-feature-grid { display: grid !important; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); align-items: stretch; }
+.da-feature {
+    background: var(--da-card) !important;
+    border: 1px solid var(--da-line) !important;
+    border-top: 5px solid var(--da-orange) !important;
+    border-radius: var(--da-radius) !important;
+    box-shadow: var(--da-shadow);
+    padding: 1.2rem 1.3rem !important;
+    gap: 0.8rem !important;
+    justify-content: space-between;
+}
+.da-feature h3 { margin: 0 0 0.4rem; font-size: 1.4rem; color: var(--da-navy) !important; }
+.da-feature p { margin: 0; font-size: 1.02rem; line-height: 1.55; color: var(--da-ink) !important; }
+.da-hint { text-align: center; color: var(--da-muted) !important; font-size: 0.95rem; }
+.da-hint p { color: var(--da-muted) !important; }
+
+/* ---------- Page titles ---------- */
+.da-page-title h2 { margin: 0.4rem 0 0.2rem; color: var(--da-navy) !important; font-size: 1.7rem; }
+.da-page-title p { margin: 0; color: var(--da-muted) !important; font-size: 1.02rem; }
+
+/* ---------- Disaster selection cards ---------- */
+.da-cat-grid { display: grid !important; grid-template-columns: repeat(auto-fit, minmax(165px, 1fr)); margin: 0.6rem 0 1rem; }
+.gradio-container button.da-cat-card {
+    min-height: 88px;
+    padding: 0.7rem 0.9rem;
+    text-align: left;
+    white-space: pre-line;
+    line-height: 1.35;
+    font-size: 0.92rem;
+    font-weight: 500;
+    border-radius: var(--da-radius);
+    box-shadow: var(--da-shadow);
+    display: block;
+}
+.gradio-container button.da-cat-card::first-line { font-size: 1.15rem; font-weight: 700; }
+.gradio-container button.da-cat-card.secondary {
+    background: #ffffff !important; color: var(--da-navy) !important; border: 2px solid var(--da-line) !important;
+}
+.gradio-container button.da-cat-card.secondary:hover { border-color: var(--da-orange) !important; background: var(--da-orange-soft) !important; }
+.gradio-container button.da-cat-card.primary {
+    background: var(--da-navy) !important; color: #ffffff !important; border: 2px solid var(--da-navy) !important;
+    border-bottom: 5px solid var(--da-orange) !important;
+}
+
+/* ---------- Safety Guide pages ---------- */
+.da-page { font-size: 1.02rem; line-height: 1.6; overflow-wrap: anywhere; color: var(--da-ink); }
+.da-page-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.6rem 1rem;
+    background: var(--da-navy); border-radius: var(--da-radius); padding: 0.9rem 1.2rem; margin: 0 0 0.9rem;
+    border-bottom: 4px solid var(--da-orange); }
+.da-h2 { margin: 0; font-size: 1.75rem; color: #ffffff; }
+.da-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+.da-chip { display: inline-flex; align-items: baseline; gap: 0.45rem; padding: 0.3rem 0.8rem; border-radius: 999px;
+    font-size: 0.92rem; background: #ffffff; color: var(--da-navy); text-decoration: none; border: 1px solid transparent; }
+.da-chip-emergency { background: var(--da-orange); color: #1b1b1b; font-weight: 700; }
+.da-chip-emergency .da-label { margin: 0; color: #1b1b1b; }
+.da-112 { font-size: 1.35rem; letter-spacing: 0.05em; }
+.da-chip-link, .da-chip-info { background: transparent; color: #ffffff; border-color: rgba(255, 255, 255, 0.55); }
+.da-chip-link:hover, .da-chip-info:hover { background: rgba(255, 255, 255, 0.14); }
+.da-112-source { text-decoration: none; }
+
+.da-nav-link { font-size: 0.95rem; }
+.da-nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0 0 1rem; padding: 0; }
+.da-nav a { display: inline-block; padding: 0.4rem 0.85rem; border: 1px solid var(--da-navy); border-radius: 999px;
+    text-decoration: none; color: var(--da-navy); background: #ffffff; font-weight: 600; font-size: 0.95rem; }
+.da-nav a:hover { background: var(--da-navy); color: #ffffff; }
+.da-nav a.da-nav-warn { border-color: var(--da-red); color: var(--da-red); }
+.da-nav a.da-nav-warn:hover { background: var(--da-red); color: #ffffff; }
+
+.da-section { margin: 0 0 1.6rem; }
+.da-subsection { margin-top: 2rem; }
+.da-sec-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.3rem 1rem;
+    border-bottom: 3px solid var(--da-orange); margin: 0 0 0.7rem; padding-bottom: 0.3rem; }
+.da-h3 { margin: 0; font-size: 1.45rem; color: var(--da-navy); }
+.da-count { font-size: 0.9rem; font-weight: 600; color: var(--da-muted); }
+.da-h4 { margin: 1.1rem 0 0.4rem; font-size: 1.08rem; color: var(--da-navy-2); }
+.da-desc { margin: 0.25rem 0 0.75rem; color: var(--da-muted); }
+.da-group { margin: 0.5rem 0 1rem; }
+.da-note-text { overflow-wrap: anywhere; }
+
+/* instruction cards: the approved wording first, everything else below it */
+.da-card { background: var(--da-card); border: 1px solid var(--da-line); border-left: 5px solid var(--da-navy-2);
+    border-radius: 10px; padding: 0.9rem 1.1rem; margin: 0.7rem 0; box-shadow: var(--da-shadow); }
+.da-text { margin: 0.1rem 0 0.2rem; font-size: 1.06rem; line-height: 1.6; color: var(--da-ink); }
+.da-id { font-family: ui-monospace, Consolas, monospace; font-weight: 700; font-size: 0.9rem; }
+.da-notags { margin: 0.5rem 0 0; font-size: 0.85rem; font-style: italic; color: var(--da-muted); }
+.da-tags { list-style: none; display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0; padding: 0; }
+.da-tag { display: inline-block; border: 1px solid #9fb0c8; border-radius: 999px; padding: 0 0.55rem; font-size: 0.82rem; background: var(--da-navy-soft); color: var(--da-navy); }
+
+/* notes beside an instruction: caveat, source note, scope note, conflict link */
+.da-note, .da-panel { margin: 0.6rem 0 0; padding: 0.55rem 0.8rem; border-left: 5px solid #64748b; border-radius: 6px; background: #eef1f5; color: var(--da-ink); }
+.da-label { font-weight: 700; margin-right: 0.5rem; }
+.da-ref { font-family: ui-monospace, Consolas, monospace; font-size: 0.8rem; margin-right: 0.5rem; color: var(--da-muted); }
+.da-caveat { border-left-color: var(--da-orange); background: var(--da-orange-soft); }
+.da-caveat .da-label { color: var(--da-orange-dark); }
+.da-attrib { border-left-color: var(--da-blue); background: var(--da-blue-soft); }
+.da-attrib .da-label { color: var(--da-blue); }
+.da-scope, .da-scope-panel { border-left-color: var(--da-violet); background: var(--da-violet-soft); }
+.da-scope .da-label, .da-scope-panel .da-label { color: var(--da-violet); }
+.da-conflict-link, .da-conflict { border-left-color: var(--da-red); background: var(--da-red-soft); }
+.da-conflict-link .da-label, .da-conflict .da-label { color: var(--da-red); }
+.da-conflict-link .da-label::before, .da-conflict .da-label::before { content: "\26A0\FE0F\00a0"; }
+.da-gap { border-left-color: var(--da-teal); background: var(--da-teal-soft); }
+.da-gap .da-label { color: var(--da-teal); }
+.da-research { border-left-color: #64748b; }
+.da-critical { border-left-width: 10px; border-left-color: var(--da-red); background: var(--da-red-soft); font-weight: 600; }
+.da-critical .da-label { color: var(--da-red); }
+.da-critical .da-label::before { content: "\26A0\FE0F\00a0"; }
+.da-panel-head { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 0.5rem; }
+.da-panel .da-text { font-size: 1rem; }
+
+/* known conflicts: shown at the top of the page, impossible to miss */
+.da-conflicts { background: var(--da-red-soft); border: 2px solid var(--da-red); border-radius: var(--da-radius); padding: 0.8rem 1rem 0.4rem; }
+.da-conflicts .da-sec-head { border-bottom-color: var(--da-red); }
+.da-conflicts .da-h3 { color: var(--da-red); }
+.da-conflicts .da-conflict { background: #ffffff; }
+
+/* "View Source Details": the optional technical part of a card */
+.da-source-details { margin: 0.7rem 0 0; border-top: 1px dashed var(--da-line); padding-top: 0.4rem; font-size: 0.9rem; }
+.da-source-details summary { cursor: pointer; display: inline-block; font-weight: 600; color: var(--da-blue); padding: 0.1rem 0; }
+.da-source-details summary:hover { text-decoration: underline; }
+.da-source-body { margin-top: 0.4rem; padding: 0.5rem 0.7rem; background: #f6f8fb; border-radius: 6px; }
+.da-source-none { color: var(--da-muted); font-style: italic; }
+
+/* About the Sources */
+.da-about { margin: 1.8rem 0 0.5rem; border: 1px solid var(--da-line); border-radius: var(--da-radius); background: #ffffff; padding: 0.5rem 1rem; }
+.da-about summary { cursor: pointer; font-weight: 700; font-size: 1.1rem; padding: 0.4rem 0; color: var(--da-navy); }
+.da-project-notice { margin: 0 0 0.5rem; font-weight: 600; }
+.da-source { border-top: 1px solid var(--da-line); padding: 0.55rem 0; }
+.da-source-title { margin: 0 0 0.2rem; font-weight: 600; }
+.da-source-line { margin: 0.2rem 0; font-size: 0.93rem; }
+
+.da-error { border: 2px solid var(--da-red); border-radius: var(--da-radius); padding: 0.8rem 1.1rem; background: var(--da-red-soft); }
+
+/* ---------- Small screens ---------- */
+@media (max-width: 700px) {
+    .da-hero { padding: 1.2rem 1.1rem !important; }
+    .da-hero h1 { font-size: 1.7rem; }
+    .da-hero p { font-size: 1rem; }
+    .da-feature-grid { grid-template-columns: 1fr; }
+    .da-cat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .da-page-head { padding: 0.8rem 0.9rem; }
+    .da-h2 { font-size: 1.45rem; }
+    .da-h3 { font-size: 1.25rem; }
+    .da-card { padding: 0.75rem 0.85rem; }
+    .gradio-container button[role="tab"] { padding: 0.55rem 0.6rem; font-size: 0.92rem; }
+}

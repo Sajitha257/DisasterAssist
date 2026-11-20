@@ -1,0 +1,552 @@
+{
+  "disaster_id": "earthquake",
+  "disaster_name": "Earthquake",
+  "project_notice": "This guide does not replace official evacuation orders or emergency services. It cannot predict disasters and shows no live alerts.",
+  "emergency_number": "112",
+  "sections": {
+    "before": [
+      {
+        "instruction_id": "EARTHQUAKE-B-001",
+        "text": "Consult a structural engineer, and know your seismic zone.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-B-002",
+        "text": "Keep your house's design drawings.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-B-003",
+        "text": "Repair deep plaster cracks.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-B-004",
+        "text": "Fasten shelves to walls and put heavy items on low shelves.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-B-005",
+        "text": "Give gas and power appliances strong support.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-B-006",
+        "text": "Fix objects that could fall.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-B-007",
+        "text": "Avoid flood plains and filled-up land for construction.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-B-008",
+        "text": "Make a family communication and evacuation plan.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-B-009",
+        "text": "Choose open, accessible meeting places.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-B-010",
+        "text": "Learn Drop-Cover-Hold.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-B-011",
+        "text": "Practise drills regularly.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-B-012",
+        "text": "Community: mark exit routes and keep firefighting equipment working, especially in high-rises.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-B-013",
+        "text": "Keep a kit for at least three days.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": "Listed under Emergency Preparedness in the Stage 2 content; no further detail is given."
+      }
+    ],
+    "during": [
+      {
+        "instruction_id": "EARTHQUAKE-D-001",
+        "text": "Indoors: stay calm. If indoors, stay inside.",
+        "source_tags": [
+          "S1",
+          "X1†"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-D-002",
+        "text": "Indoors: Drop under a sturdy table, Cover your head, and Hold on until the shaking stops.",
+        "source_tags": [
+          "S1",
+          "X1†"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-D-003",
+        "text": "Indoors: if there is no table, cover your head and face with your arms and crouch in an inside corner.",
+        "source_tags": [
+          "X1†",
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-D-004",
+        "text": "Indoors: stay away from mirrors, windows, glass, outside doors and walls, and anything that could fall.",
+        "source_tags": [
+          "S1",
+          "S2*",
+          "X1†"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-D-005",
+        "text": "Indoors: do not exit the building while the ground is shaking. NDMA's site says most injuries happen when people try to move or leave during shaking.",
+        "source_tags": [
+          "S1",
+          "S2*",
+          "X1†"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-D-006",
+        "text": "Indoors: do not use a lift.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-D-007",
+        "text": "Indoors: do not use matches, candles or any flame.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": "Conflicts with S4's emergency-bag item 'candles and matches/lighter' (C5). Both are preserved; see known_conflicts."
+      },
+      {
+        "instruction_id": "EARTHQUAKE-D-008",
+        "text": "Indoors: this applies in old or weak buildings too: keep movement to a few steps to a safe spot, and stay until the shaking stops and exiting is safe.",
+        "source_tags": [
+          "X1†"
+        ],
+        "caveat": "Refers to the instruction not to exit the building while the ground is shaking."
+      },
+      {
+        "instruction_id": "EARTHQUAKE-D-009",
+        "text": "Indoors: when the shaking stops and it is safe, move outside using stairs.",
+        "source_tags": [
+          "S1",
+          "X1†"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-D-010",
+        "text": "Outdoors: if you are outside, stay outside.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-D-011",
+        "text": "Outdoors: move to an open area away from buildings, walls, trees, poles, electric lines and bridges.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-D-012",
+        "text": "Outdoors: stay in the open until the shaking stops. The greatest danger is directly outside buildings, at exits and along exterior walls.",
+        "source_tags": [
+          "X1†"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-D-013",
+        "text": "Outdoors: in a vehicle, pull over in an open place, remain inside and avoid bridges.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      }
+    ],
+    "after": [
+      {
+        "instruction_id": "EARTHQUAKE-A-001",
+        "text": "Do not enter damaged buildings.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-A-002",
+        "text": "Move cautiously, check for unstable objects overhead, and check yourself for injuries.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-A-003",
+        "text": "Expect aftershocks.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-A-004",
+        "text": "Check power connections before switching on, because short circuits are possible.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-A-005",
+        "text": "Use stairs, not lifts.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-A-006",
+        "text": "If trapped in rubble: do not light a match.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": "Conflicts with S4's emergency-bag item 'candles and matches/lighter' (C5). Both are preserved; see known_conflicts."
+      },
+      {
+        "instruction_id": "EARTHQUAKE-A-007",
+        "text": "If trapped in rubble: cover your mouth with a cloth.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-A-008",
+        "text": "If trapped in rubble: tap on a pipe or wall, or sound a whistle.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-A-009",
+        "text": "If trapped in rubble: shout only as a last resort.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-A-010",
+        "text": "Stay away from beaches, because tsunamis and seiches can arrive after the shaking stops.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-A-011",
+        "text": "Ignore rumours.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-A-012",
+        "text": "If you evacuate, leave a message saying where you went.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-A-013",
+        "text": "Do not drive around damaged areas. Avoid roads, bridges and ramps that may be damaged.",
+        "source_tags": [
+          "S1",
+          "X1†"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "EARTHQUAKE-A-014",
+        "text": "Listen to radio or TV for instructions.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      }
+    ]
+  },
+  "subsections": [],
+  "common_preparedness": [
+    {
+      "instruction_id": "C1",
+      "text": "Plan ahead. Find out which disasters could affect your area, how to prepare, how you would be warned, and where evacuation routes and secure places are. Find safe spots in your home for each disaster.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C2",
+      "text": "Family plan. Keep these handy for each member: out-of-state contact, local contact, nearest relative, emergency phone number, family doctor and meeting places. Decide two meeting places: one near home for fire, and one outside the neighbourhood in case you cannot return. Keep emergency numbers near phones. Decide where to stay if told to evacuate, and learn shelter locations. Discuss power outages and injuries. Know national and local helplines. Keep a family member informed if you are caught in a disaster.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C3",
+      "text": "Escape plan. Draw your home marking doors, windows, steps, large furniture, emergency supplies, extinguishers, smoke detectors, first-aid kits and main utility connections. Show at least two escape routes from each room, plus a meeting place outside. Plan each floor separately. Practise evacuation at least twice a year.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Credited to redcross.org in the source."
+    },
+    {
+      "instruction_id": "C4",
+      "text": "Utilities. Show family members how to turn off the water, gas and electricity mains.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C5",
+      "text": "Emergency bag (waterproof). Sealed drinking water and dry non-perishable food, for example biscuits. Battery torch with spare batteries, and a battery radio. Candles and matches/lighter in a waterproof container. First-aid box, essential and prescription medicines, face mask, hand sanitiser and chlorine tablets. Knife, scissors, whistle, duct tape, paper and pencils, thick ropes and cords. Phone, charger and power bank. First-aid reference (book or photocopy). Emergency plan, local map, contact numbers and family details. Important documents, extra cash/valuables, spare vehicle and house keys, glasses or other personal aids. Soap, sanitary pads, wipes, toilet paper and paper towels. Weather-appropriate dry clothes including undergarments, blankets and protective footwear.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C6",
+      "text": "When warnings are issued. Store at least 5 litres of water per day for each person and each pet. Keep at least a three-day supply of water and food. Choose long-life foods needing little or no cooking, water or refrigeration, and avoid very salty or spicy items. Cater for babies and special diets. Keep the phone charged and use SMS. Store Aadhaar, ration card, voter ID and health/vaccination records in a waterproof bag. Follow authentic sources (mausam.imd.gov.in and ndma.gov.in).",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Conflict: S1 says a week of food and water for floods and cyclones. S4 says three days. The sources are not reconciled, so both recommendations must remain visible on those pages."
+    },
+    {
+      "instruction_id": "C7",
+      "text": "First aid. Keep a first-aid box and learn basic first aid and CPR.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Detailed first-aid steps are unavailable because NDMA's First Aid page could not be read."
+    },
+    {
+      "instruction_id": "C8",
+      "text": "Children. Teach children how and when to call the national emergency number, 112.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "S4 lists 100/101/102/112; only 112 is shown here."
+    }
+  ],
+  "known_conflicts": [
+    {
+      "conflict_id": "EARTHQUAKE-CF-001",
+      "text": "S4 includes candles and matches/lighter in the common emergency bag (C5). S1 says not to use matches, candles or any flame during an earthquake (EARTHQUAKE-D-007) and not to light a match if trapped in rubble (EARTHQUAKE-A-006). The sources are not reconciled: neither instruction is removed or chosen over the other, and both remain visible.",
+      "source_tags": [
+        "S4",
+        "S1"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "limitation_id": "EARTHQUAKE-L-001",
+      "text": "Gap: it is not available how to judge whether a building is safe to re-enter.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "EARTHQUAKE-L-002",
+      "text": "Emergency number 112 is sourced to S4, X3† and X4†; X3† and X4† are excerpt-only evidence. Other state numbers are not displayed because their current status is unverified.",
+      "source_tags": [
+        "S4",
+        "X3†",
+        "X4†"
+      ]
+    },
+    {
+      "limitation_id": "EARTHQUAKE-L-003",
+      "text": "Detailed first-aid steps are unavailable because NDMA's First Aid page could not be read. First aid is limited to keeping a kit and learning first aid and CPR.",
+      "source_tags": [
+        "S4"
+      ]
+    },
+    {
+      "limitation_id": "EARTHQUAKE-L-004",
+      "text": "Recovery guidance is thin for every hazard.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "EARTHQUAKE-L-005",
+      "text": "NDMA's site pages, SACHET guidance files, the INCOIS User Guide, DG Fire Services PDFs and the TN Forest Department PDF were blocked to automated reading.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "EARTHQUAKE-L-006",
+      "text": "Source verification dates are not recorded per source. The research handover recorded access dates of 10 November 2026, but that date is not assigned to individual sources or claims.",
+      "source_tags": []
+    }
+  ],
+  "excluded_guidance": [
+    {
+      "exclusion_id": "EARTHQUAKE-X-001",
+      "text": "Numbers 100/101/102, 1077, 1070 and the NDMA office line.",
+      "reason": "Unverified or not 112.",
+      "source_tags": []
+    },
+    {
+      "exclusion_id": "EARTHQUAKE-X-002",
+      "text": "S1's \"leave as soon as possible if near an exit\" and \"take the fastest way out of an old building\".",
+      "reason": "Contradict the rest of S1 and NDMA's site.",
+      "source_tags": [
+        "S1"
+      ]
+    },
+    {
+      "exclusion_id": "EARTHQUAKE-X-003",
+      "text": "Door-lintel advice.",
+      "reason": "Differs from Drop-Cover-Hold.",
+      "source_tags": [
+        "X1†"
+      ]
+    },
+    {
+      "exclusion_id": "EARTHQUAKE-X-004",
+      "text": "S2*'s two-minute aftershock rule.",
+      "reason": "FEMA-derived number.",
+      "source_tags": [
+        "S2*"
+      ]
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "S1",
+      "display_label": "S1",
+      "title": "Disaster Survival Guide (2019, DDMA-hosted)",
+      "organisation": "NDMA (Government of India)",
+      "url": "https://ddma.delhi.gov.in/sites/default/files/ddma/mom/earth.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "NDMA guide, hosted on the DDMA website."
+    },
+    {
+      "source_id": "S2",
+      "display_label": "S2*",
+      "title": "NIDM Do's & Don'ts (FEMA-adapted)",
+      "organisation": "NIDM",
+      "url": "https://nidm.gov.in/PDF/IEC/Dosnewnidm.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Footer says it was customized from FEMA and a DK Publishing book. Treat as partly non-Indian in origin. Internal source ID is S2; user-facing label is S2*."
+    },
+    {
+      "source_id": "S4",
+      "display_label": "S4",
+      "title": "Emergency Preparedness Checklist (MoHFW/NCDC checklist)",
+      "organisation": "MoHFW/NCDC",
+      "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/07/Emergency-Preparedness-Checklist.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Its escape-plan section credits redcross.org. Cited here for the emergency number 112 and the common preparedness items C1-C8."
+    },
+    {
+      "source_id": "X1",
+      "display_label": "X1†",
+      "title": "NDMA site (earthquake Dos & Don'ts and fire-safety pages)",
+      "organisation": "NDMA",
+      "url": "https://ndma.gov.in/Natural-Hazards/Earthquakes/Dos-Donts",
+      "evidence_status": "Excerpt-only evidence (search excerpt); not a fully read or fully verified source.",
+      "attribution_note": "Register also lists https://ndma.gov.in/Resources/awareness/fire-safety. NDMA site pages were blocked to automated reading; only search excerpts were available."
+    },
+    {
+      "source_id": "X3",
+      "display_label": "X3†",
+      "title": "MHA Nirbhaya/ERSS section",
+      "organisation": "MHA",
+      "url": "https://www.mha.gov.in/nirbhayaerss-section",
+      "evidence_status": "Excerpt-only evidence (search excerpt); not a fully read or fully verified source.",
+      "attribution_note": "Cited for the emergency number 112."
+    },
+    {
+      "source_id": "X4",
+      "display_label": "X4†",
+      "title": "112 India - About",
+      "organisation": "112.gov.in",
+      "url": "https://112.gov.in/about",
+      "evidence_status": "Excerpt-only evidence (search excerpt); not a fully read or fully verified source.",
+      "attribution_note": "Cited for the emergency number 112."
+    }
+  ]
+}

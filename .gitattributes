@@ -1,0 +1,3 @@
+# Keep the approved JSON files and their checksums exactly as they are.
+# This stops Git from changing line endings, which would change the checksums.
+data/approved/* -text

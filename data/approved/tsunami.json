@@ -1,0 +1,540 @@
+{
+  "disaster_id": "tsunami",
+  "disaster_name": "Tsunami",
+  "project_notice": "This guide does not replace official evacuation orders or emergency services. It cannot predict disasters and shows no live alerts.",
+  "emergency_number": "112",
+  "sections": {
+    "before": [
+      {
+        "instruction_id": "TSUNAMI-B-001",
+        "text": "Build to BIS codes.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-B-002",
+        "text": "Know your street's height above sea level and its distance from the coast.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-B-003",
+        "text": "Know your community's warning system, evacuation routes and the highest nearby ground. Practise the route.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-B-004",
+        "text": "Make a family communications plan.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-B-005",
+        "text": "If you are a tourist, learn the local evacuation protocols.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-B-006",
+        "text": "After a coastal earthquake, turn on the radio to check for a tsunami warning.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-B-007",
+        "text": "Check whether your child's school plan requires you to collect them. Phone lines may be overloaded and roads jammed.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-B-008",
+        "text": "A strong earthquake or ground rumbling is a warning signal.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": "S2* guidance is FEMA-adapted NIDM material (partly non-Indian in origin)."
+      },
+      {
+        "instruction_id": "TSUNAMI-B-009",
+        "text": "Learn warning signs such as a sudden change in coastal water level.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": "S2* guidance is FEMA-adapted NIDM material (partly non-Indian in origin)."
+      },
+      {
+        "instruction_id": "TSUNAMI-B-010",
+        "text": "Keep your car fuelled.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": "S2* guidance is FEMA-adapted NIDM material (partly non-Indian in origin)."
+      }
+    ],
+    "during": [
+      {
+        "instruction_id": "TSUNAMI-D-001",
+        "text": "Stay calm. Evacuate immediately when officials direct you. Move inland to higher ground and stay away from the beach.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-D-002",
+        "text": "Save yourself, not possessions. Help infants, elderly people and people with access or functional needs.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-D-003",
+        "text": "Never go to the beach to watch an approaching surge.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": "S2* guidance is FEMA-adapted NIDM material (partly non-Indian in origin)."
+      },
+      {
+        "instruction_id": "TSUNAMI-D-004",
+        "text": "If you cannot reach high ground, a raised platform or the highest floor may help.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": "S2* guidance is FEMA-adapted NIDM material (partly non-Indian in origin)."
+      },
+      {
+        "instruction_id": "TSUNAMI-D-005",
+        "text": "Waves can come in series, and later ones may cause more damage than the first.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": "S2* guidance is FEMA-adapted NIDM material (partly non-Indian in origin)."
+      },
+      {
+        "instruction_id": "TSUNAMI-D-006",
+        "text": "If you are in the water, grab something that floats.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-D-007",
+        "text": "In a boat, face the waves and head out to sea. In a harbour, go inland.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-D-008",
+        "text": "Use radio or TV for updates.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": "Includes S2* guidance, which is FEMA-adapted NIDM material (partly non-Indian in origin)."
+      }
+    ],
+    "after": [
+      {
+        "instruction_id": "TSUNAMI-A-001",
+        "text": "Return only after officials tell you it is safe.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": "Includes S2* guidance, which is FEMA-adapted NIDM material (partly non-Indian in origin)."
+      },
+      {
+        "instruction_id": "TSUNAMI-A-002",
+        "text": "Avoid disaster-affected areas and debris in the water.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-A-003",
+        "text": "Check yourself for injuries before helping others.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-A-004",
+        "text": "Call professionals for rescues.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-A-005",
+        "text": "Help people who need special assistance.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-A-006",
+        "text": "Stay out of any building with water around it, because floors can crack and walls collapse.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-A-007",
+        "text": "Use caution when re-entering buildings, and use a torch. Check for short circuits and live wires.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": "Includes S2* guidance, which is FEMA-adapted NIDM material (partly non-Indian in origin)."
+      },
+      {
+        "instruction_id": "TSUNAMI-A-008",
+        "text": "Wear protective clothing when cleaning up.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-A-009",
+        "text": "Do not eat or drink from open containers, and test drinking water.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": "Includes S2* guidance, which is FEMA-adapted NIDM material (partly non-Indian in origin)."
+      },
+      {
+        "instruction_id": "TSUNAMI-A-010",
+        "text": "Leave a message if you evacuate, and ignore rumours.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "TSUNAMI-A-011",
+        "text": "Use radio or TV for updates.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": "Includes S2* guidance, which is FEMA-adapted NIDM material (partly non-Indian in origin)."
+      }
+    ]
+  },
+  "subsections": [
+    {
+      "subsection_id": "tsunami-incois-bulletin-levels",
+      "subsection_name": "INCOIS bulletin levels - Official terminology",
+      "description": "Official terminology only. Warning, Alert and Watch are official bulletin levels issued only by INCOIS and the authorities. This app does not generate or display live bulletins. 'Threat Passed' is not defined here and no numeric thresholds are shown.",
+      "sections": {
+        "bulletin_levels": [
+          {
+            "instruction_id": "TSUNAMI-BL-001",
+            "text": "INCOIS bulletins give each coastal forecast zone an Estimated Time of Arrival (ETA), an Estimated Maximum Wave Amplitude (EWA) and a threat category.",
+            "source_tags": [
+              "X7†"
+            ],
+            "caveat": "Excerpt-only evidence. No numeric thresholds are shown."
+          },
+          {
+            "instruction_id": "TSUNAMI-BL-002",
+            "text": "Earthquake Information Bulletin: no immediate action required.",
+            "source_tags": [
+              "S5"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "TSUNAMI-BL-003",
+            "text": "Warning: the highest level. Immediate action is required to move the public to higher ground.",
+            "source_tags": [
+              "S5"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "TSUNAMI-BL-004",
+            "text": "Alert: the second level. Immediate public evacuation is not required. The public should avoid beaches. Local officials prepare to evacuate if it is upgraded.",
+            "source_tags": [
+              "S5"
+            ],
+            "caveat": "The page's stated reason is garbled, so it is omitted."
+          },
+          {
+            "instruction_id": "TSUNAMI-BL-005",
+            "text": "Watch: the third level. Immediate evacuation is not required, and local officials prepare. No public action is specified, and Watch bulletins go to MHA and the Ministry of Earth Sciences, not the public.",
+            "source_tags": [
+              "S5"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "TSUNAMI-BL-006",
+            "text": "Cancellation: it withdraws a Watch, Alert or Warning. It is issued if the warning rested on erroneous data, if later information shows only an insignificant wave, or selectively for areas that the waves will not threaten.",
+            "source_tags": [
+              "S5"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "TSUNAMI-BL-007",
+            "text": "All Clear: the tsunami threat has passed and no more dangerous waves are expected. It is issued after monitoring shows the activity has decreased.",
+            "source_tags": [
+              "S5"
+            ],
+            "caveat": null
+          }
+        ]
+      }
+    }
+  ],
+  "common_preparedness": [
+    {
+      "instruction_id": "C1",
+      "text": "Plan ahead. Find out which disasters could affect your area, how to prepare, how you would be warned, and where evacuation routes and secure places are. Find safe spots in your home for each disaster.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C2",
+      "text": "Family plan. Keep these handy for each member: out-of-state contact, local contact, nearest relative, emergency phone number, family doctor and meeting places. Decide two meeting places: one near home for fire, and one outside the neighbourhood in case you cannot return. Keep emergency numbers near phones. Decide where to stay if told to evacuate, and learn shelter locations. Discuss power outages and injuries. Know national and local helplines. Keep a family member informed if you are caught in a disaster.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C3",
+      "text": "Escape plan. Draw your home marking doors, windows, steps, large furniture, emergency supplies, extinguishers, smoke detectors, first-aid kits and main utility connections. Show at least two escape routes from each room, plus a meeting place outside. Plan each floor separately. Practise evacuation at least twice a year.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Credited to redcross.org in the source."
+    },
+    {
+      "instruction_id": "C4",
+      "text": "Utilities. Show family members how to turn off the water, gas and electricity mains.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C5",
+      "text": "Emergency bag (waterproof). Sealed drinking water and dry non-perishable food, for example biscuits. Battery torch with spare batteries, and a battery radio. Candles and matches/lighter in a waterproof container. First-aid box, essential and prescription medicines, face mask, hand sanitiser and chlorine tablets. Knife, scissors, whistle, duct tape, paper and pencils, thick ropes and cords. Phone, charger and power bank. First-aid reference (book or photocopy). Emergency plan, local map, contact numbers and family details. Important documents, extra cash/valuables, spare vehicle and house keys, glasses or other personal aids. Soap, sanitary pads, wipes, toilet paper and paper towels. Weather-appropriate dry clothes including undergarments, blankets and protective footwear.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C6",
+      "text": "When warnings are issued. Store at least 5 litres of water per day for each person and each pet. Keep at least a three-day supply of water and food. Choose long-life foods needing little or no cooking, water or refrigeration, and avoid very salty or spicy items. Cater for babies and special diets. Keep the phone charged and use SMS. Store Aadhaar, ration card, voter ID and health/vaccination records in a waterproof bag. Follow authentic sources (mausam.imd.gov.in and ndma.gov.in).",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Conflict: S1 says a week of food and water for floods and cyclones. S4 says three days. The sources are not reconciled, so both recommendations must remain visible on those pages."
+    },
+    {
+      "instruction_id": "C7",
+      "text": "First aid. Keep a first-aid box and learn basic first aid and CPR.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Detailed first-aid steps are unavailable because NDMA's First Aid page could not be read."
+    },
+    {
+      "instruction_id": "C8",
+      "text": "Children. Teach children how and when to call the national emergency number, 112.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "S4 lists 100/101/102/112; only 112 is shown here."
+    }
+  ],
+  "known_conflicts": [],
+  "limitations": [
+    {
+      "limitation_id": "TSUNAMI-L-001",
+      "text": "Everything outside the INCOIS bulletin levels subsection is general safety guidance from NDMA and NIDM. It is separate from official INCOIS bulletin terminology.",
+      "source_tags": [
+        "S1",
+        "S2*"
+      ]
+    },
+    {
+      "limitation_id": "TSUNAMI-L-002",
+      "text": "S2* tsunami guidance is FEMA-adapted NIDM material (partly non-Indian in origin) and is kept with that attribution.",
+      "source_tags": [
+        "S2*"
+      ]
+    },
+    {
+      "limitation_id": "TSUNAMI-L-003",
+      "text": "'Threat Passed' is not defined. The term appears in INCOIS documents, but a full definition could not be read. No definition is invented.",
+      "source_tags": [
+        "S5"
+      ]
+    },
+    {
+      "limitation_id": "TSUNAMI-L-004",
+      "text": "No numeric thresholds are shown. Numeric tsunami thresholds are unverified in current documentation.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "TSUNAMI-L-005",
+      "text": "Gap: recovery guidance beyond what is listed is not available.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "TSUNAMI-L-006",
+      "text": "Emergency number 112 is sourced to S4, X3† and X4†; X3† and X4† are excerpt-only evidence. Other state numbers are not displayed because their current status is unverified.",
+      "source_tags": [
+        "S4",
+        "X3†",
+        "X4†"
+      ]
+    },
+    {
+      "limitation_id": "TSUNAMI-L-007",
+      "text": "Detailed first-aid steps are unavailable because NDMA's First Aid page could not be read. First aid is limited to keeping a kit and learning first aid and CPR.",
+      "source_tags": [
+        "S4"
+      ]
+    },
+    {
+      "limitation_id": "TSUNAMI-L-008",
+      "text": "Recovery guidance is thin for every hazard.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "TSUNAMI-L-009",
+      "text": "NDMA's site pages, SACHET guidance files, the INCOIS User Guide, DG Fire Services PDFs and the TN Forest Department PDF were blocked to automated reading.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "TSUNAMI-L-010",
+      "text": "Source verification dates are not recorded per source. The research handover recorded access dates of 10 November 2026, but that date is not assigned to individual sources or claims.",
+      "source_tags": []
+    }
+  ],
+  "excluded_guidance": [
+    {
+      "exclusion_id": "TSUNAMI-X-001",
+      "text": "Numbers 100/101/102, 1077, 1070 and the NDMA office line.",
+      "reason": "Unverified or not 112.",
+      "source_tags": []
+    },
+    {
+      "exclusion_id": "TSUNAMI-X-002",
+      "text": "Numeric ETA/EWA matrix.",
+      "reason": "The readable S5 version uses travel time and run-up; a newer version appeared only in a search excerpt, and the INCOIS User Guide is blocked.",
+      "source_tags": [
+        "S5",
+        "X7†"
+      ]
+    },
+    {
+      "exclusion_id": "TSUNAMI-X-003",
+      "text": "S2*'s one-mile/25-foot zone, 5-90-minute wave interval and \"watch becomes warning\" wording.",
+      "reason": "FEMA-derived.",
+      "source_tags": [
+        "S2*"
+      ]
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "S1",
+      "display_label": "S1",
+      "title": "Disaster Survival Guide (2019, DDMA-hosted)",
+      "organisation": "NDMA (Government of India)",
+      "url": "https://ddma.delhi.gov.in/sites/default/files/ddma/mom/earth.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "NDMA guide, hosted on the DDMA website."
+    },
+    {
+      "source_id": "S2",
+      "display_label": "S2*",
+      "title": "NIDM Do's & Don'ts (FEMA-adapted)",
+      "organisation": "NIDM",
+      "url": "https://nidm.gov.in/PDF/IEC/Dosnewnidm.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Footer says it was customized from FEMA and a DK Publishing book. Treat as partly non-Indian in origin. Internal source ID is S2; user-facing label is S2*."
+    },
+    {
+      "source_id": "S4",
+      "display_label": "S4",
+      "title": "Emergency Preparedness Checklist (MoHFW/NCDC checklist)",
+      "organisation": "MoHFW/NCDC",
+      "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/07/Emergency-Preparedness-Checklist.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Its escape-plan section credits redcross.org. Cited here for the emergency number 112 and the common preparedness items C1-C8."
+    },
+    {
+      "source_id": "S5",
+      "display_label": "S5",
+      "title": "INCOIS SOP page (2019-stamped version)",
+      "organisation": "INCOIS",
+      "url": "https://tsunami.incois.gov.in/TEWS/dsssop.jsp",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Source of the official bulletin level descriptions. The Alert level's stated reason on the page is garbled and is omitted."
+    },
+    {
+      "source_id": "X3",
+      "display_label": "X3†",
+      "title": "MHA Nirbhaya/ERSS section",
+      "organisation": "MHA",
+      "url": "https://www.mha.gov.in/nirbhayaerss-section",
+      "evidence_status": "Excerpt-only evidence (search excerpt); not a fully read or fully verified source.",
+      "attribution_note": "Cited for the emergency number 112."
+    },
+    {
+      "source_id": "X4",
+      "display_label": "X4†",
+      "title": "112 India - About",
+      "organisation": "112.gov.in",
+      "url": "https://112.gov.in/about",
+      "evidence_status": "Excerpt-only evidence (search excerpt); not a fully read or fully verified source.",
+      "attribution_note": "Cited for the emergency number 112."
+    },
+    {
+      "source_id": "X7",
+      "display_label": "X7†",
+      "title": "INCOIS User Guide (plus a newer-looking SOP page excerpt)",
+      "organisation": "INCOIS",
+      "url": "https://tsunami.incois.gov.in/itews/web/NTWC-Userguide.pdf",
+      "evidence_status": "Excerpt-only evidence (search excerpt); not a fully read or fully verified source.",
+      "attribution_note": "The User Guide is blocked to automated reading. The newer-looking SOP page excerpt was used only for the ETA/EWA names."
+    }
+  ]
+}

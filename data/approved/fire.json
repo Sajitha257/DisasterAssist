@@ -1,0 +1,1119 @@
+{
+  "disaster_id": "fire",
+  "disaster_name": "Fire",
+  "project_notice": "This guide does not replace official evacuation orders or emergency services. It cannot predict disasters and shows no live alerts.",
+  "emergency_number": "112",
+  "sections": {
+    "before": [
+      {
+        "instruction_id": "FIRE-B-001",
+        "text": "Make a home escape plan with a meeting place outside. Know two ways out of every room, practise them, and practise feeling your way out with your eyes closed.",
+        "source_tags": [
+          "S4",
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-B-002",
+        "text": "Keep exit routes and staircases clear, and check them periodically.",
+        "source_tags": [
+          "S1",
+          "S7 · Delhi Govt",
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-B-003",
+        "text": "Know how to operate the fire alarm and the firefighting equipment.",
+        "source_tags": [
+          "S11 · Delhi Govt"
+        ],
+        "caveat": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule."
+      },
+      {
+        "instruction_id": "FIRE-B-004",
+        "text": "Fit working smoke alarms.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-B-005",
+        "text": "Keep extinguishers (refilled), buckets of water and blankets ready.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-B-006",
+        "text": "Get a fire audit, and keep combustibles away from loose wiring.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-B-007",
+        "text": "Keep hydrants and access to firefighting equipment clear, and do not tamper with the equipment.",
+        "source_tags": [
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule."
+      },
+      {
+        "instruction_id": "FIRE-B-008",
+        "text": "Electrical safety: do not overload sockets.",
+        "source_tags": [
+          "S1",
+          "S7 · Delhi Govt",
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-B-009",
+        "text": "Electrical safety: do not run cords under carpets.",
+        "source_tags": [
+          "S1",
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-B-010",
+        "text": "Electrical safety: check for loose connections.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-B-011",
+        "text": "Electrical safety: switch off appliances after use.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-B-012",
+        "text": "Electrical safety: switch off the mains when away for long.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-B-013",
+        "text": "Electrical safety: do not meddle with plugs or switches.",
+        "source_tags": [
+          "S7 · Delhi Govt"
+        ],
+        "caveat": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule."
+      },
+      {
+        "instruction_id": "FIRE-B-014",
+        "text": "Cooking and heating: keep LPG stoves on a raised platform.",
+        "source_tags": [
+          "S1",
+          "S7 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-B-015",
+        "text": "Cooking and heating: turn off the cylinder valve and knob after cooking.",
+        "source_tags": [
+          "S1",
+          "S7 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-B-016",
+        "text": "Cooking and heating: turn off the cylinder before sleeping.",
+        "source_tags": [
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule."
+      },
+      {
+        "instruction_id": "FIRE-B-017",
+        "text": "Cooking and heating: keep papers, clothes and flammables away from heaters and stoves.",
+        "source_tags": [
+          "S1",
+          "S7 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-B-018",
+        "text": "Cooking and heating: do not store flammable liquids indoors.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-B-019",
+        "text": "Cooking and heating: keep combustible liquids away from heat sources, and clean up spills.",
+        "source_tags": [
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule."
+      },
+      {
+        "instruction_id": "FIRE-B-020",
+        "text": "Cooking and heating: keep spray cans away from heaters and sun.",
+        "source_tags": [
+          "S7 · Delhi Govt"
+        ],
+        "caveat": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule."
+      },
+      {
+        "instruction_id": "FIRE-B-021",
+        "text": "Cooking and heating: never reach over a fire, and do not refill a burning stove.",
+        "source_tags": [
+          "S1",
+          "S7 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-B-022",
+        "text": "Cooking and heating: avoid loose, flowing or synthetic clothes near fire.",
+        "source_tags": [
+          "S1",
+          "S2*",
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-B-023",
+        "text": "Matches, candles and waste: lock away matches and lighters.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-B-024",
+        "text": "Matches, candles and waste: do not put candles, lamps or agarbattis on wooden floors or near combustibles.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-B-025",
+        "text": "Matches, candles and waste: do not throw matches or cigarette ends in waste baskets.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-B-026",
+        "text": "Matches, candles and waste: use metal ashtrays.",
+        "source_tags": [
+          "S7 · Delhi Govt"
+        ],
+        "caveat": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule."
+      },
+      {
+        "instruction_id": "FIRE-B-027",
+        "text": "Matches, candles and waste: do not burn waste or leaves.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-B-028",
+        "text": "Matches, candles and waste: do not accumulate old newspapers.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-B-029",
+        "text": "Crackers: do not burn crackers in crowded places or indoors, and keep a bucket of water handy.",
+        "source_tags": [
+          "S2*",
+          "S7 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-B-030",
+        "text": "Keep a first-aid kit in every segment.",
+        "source_tags": [
+          "S1",
+          "S2*",
+          "S4",
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Listed under Emergency Preparedness in the Stage 2 content with these combined tags; the specific source for this item is not separated. Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      }
+    ],
+    "during": [
+      {
+        "instruction_id": "FIRE-P-001",
+        "text": "A small flame can become a major fire in under 30 seconds. Smoke and toxic gases kill more people than flames, and there is only time to escape.",
+        "source_tags": [
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule."
+      },
+      {
+        "instruction_id": "FIRE-P-002",
+        "text": "Exit immediately if the fire is out of control.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-P-003",
+        "text": "Never go back for possessions.",
+        "source_tags": [
+          "S1",
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-D-001",
+        "text": "Leave by the nearest exit.",
+        "source_tags": [
+          "S1",
+          "S11 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-D-002",
+        "text": "Escape first, then call for help.",
+        "source_tags": [
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule."
+      },
+      {
+        "instruction_id": "FIRE-D-003",
+        "text": "Do not use lifts, and do not shout or run.",
+        "source_tags": [
+          "S1",
+          "S11 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-D-004",
+        "text": "Close doors and windows behind you, and do not prop fire or smoke-check doors open.",
+        "source_tags": [
+          "S1",
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-D-005",
+        "text": "Once you are out, raise the alarm and call 112.",
+        "source_tags": [
+          "S1",
+          "S4",
+          "S11 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-D-006",
+        "text": "Attempt to put out a fire only if you can do so without undue risk.",
+        "source_tags": [
+          "S11 · Delhi Govt",
+          "S1"
+        ],
+        "caveat": "This combined wording was explicitly approved by the project owner. Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-D-007",
+        "text": "Check a closed door with the back of your hand at the top, the knob and the frame.",
+        "source_tags": [],
+        "caveat": "No source tag is given for this lead-in line in the Stage 2 content; it introduces the two closed-door items that follow."
+      },
+      {
+        "instruction_id": "FIRE-D-008",
+        "text": "Closed door: if it is hot, do not open it, and use another exit.",
+        "source_tags": [
+          "S1",
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-D-009",
+        "text": "Closed door: if it is cool, open it slowly while bracing your shoulder against it. If heat or smoke comes in, slam it shut and use your alternate route.",
+        "source_tags": [
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule."
+      },
+      {
+        "instruction_id": "FIRE-D-010",
+        "text": "Stay low and crawl under smoke.",
+        "source_tags": [
+          "S1",
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-D-011",
+        "text": "If you cannot get out: stay close to the floor if smoke permeates.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-D-012",
+        "text": "If you cannot get out: if you cannot use a door, use a window. If it is too high to jump, attract attention by waving something.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-D-013",
+        "text": "If you cannot get out: keep doors closed and block gaps with a wet cloth to slow the spread of smoke.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": "Mandatory owner-approved clarification: The wet cloth at the door gap only aims to slow smoke entering. It does not filter smoke and does not make the room safe. Do not imply that this action protects people from toxic smoke. Calling 112 and seeking rescue must not be delayed."
+      },
+      {
+        "instruction_id": "FIRE-D-014",
+        "text": "If you cannot get out: call 112.",
+        "source_tags": [
+          "S1",
+          "S4"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-D-015",
+        "text": "If someone is missing, tell the firefighters.",
+        "source_tags": [
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule."
+      },
+      {
+        "instruction_id": "FIRE-D-016",
+        "text": "If your clothes catch fire: stop, drop to the ground and roll to put out the flames.",
+        "source_tags": [
+          "S1",
+          "S2*",
+          "S12"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-D-017",
+        "text": "If someone else is burning: put out the flames by dousing with water or wrapping them in a blanket. Remove the blanket as soon as the flames are out.",
+        "source_tags": [
+          "S12"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-D-018",
+        "text": "If someone else is burning: if electricity is involved, switch off the main supply.",
+        "source_tags": [
+          "S12"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-D-019",
+        "text": "Help firefighters: give way to fire engines.",
+        "source_tags": [
+          "S1",
+          "S10 · Delhi Govt",
+          "S11 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-D-020",
+        "text": "Help firefighters: guide them to water sources.",
+        "source_tags": [
+          "S1",
+          "S11 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-D-021",
+        "text": "Help firefighters: do not park near hydrants or water tanks.",
+        "source_tags": [
+          "S1",
+          "S11 · Delhi Govt"
+        ],
+        "caveat": "Partly sourced from Delhi Fire Service (Delhi Govt) pages, which are Delhi Government guidance, not nationwide rules."
+      },
+      {
+        "instruction_id": "FIRE-D-022",
+        "text": "Help firefighters: allow them to use your phone.",
+        "source_tags": [
+          "S11 · Delhi Govt"
+        ],
+        "caveat": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule."
+      },
+      {
+        "instruction_id": "FIRE-D-023",
+        "text": "Help firefighters: keep the site uncrowded.",
+        "source_tags": [
+          "S10 · Delhi Govt"
+        ],
+        "caveat": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule."
+      }
+    ],
+    "after": [
+      {
+        "instruction_id": "FIRE-A-001",
+        "text": "Burn first aid: cool the burned body part under running water, or immerse it in a bucket of water, for 10–15 minutes or until the burning pain subsides.",
+        "source_tags": [
+          "S12"
+        ],
+        "caveat": "S1 and S7 · Delhi Govt say water until the pain subsides."
+      },
+      {
+        "instruction_id": "FIRE-A-002",
+        "text": "Burn first aid: do not immerse the whole body, and do not use ice or ice-cold water.",
+        "source_tags": [
+          "S12"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-A-003",
+        "text": "Burn first aid: cover the burn with a clean cloth and get to the nearest medical centre.",
+        "source_tags": [
+          "S12"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-A-004",
+        "text": "Burn first aid: do not apply any local agent to the wound.",
+        "source_tags": [
+          "S12"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-A-005",
+        "text": "Burn first aid: do not apply grease, ointment, lotion, antiseptic or ice, and do not break blisters.",
+        "source_tags": [
+          "S13"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-A-006",
+        "text": "Burn first aid: do not remove burnt clothing unless it comes off easily, and do not try to remove anything melted into the skin.",
+        "source_tags": [
+          "S2*",
+          "S13"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-A-007",
+        "text": "Burn first aid: do not apply adhesive dressing.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-A-008",
+        "text": "Burns suffered in a closed space can cause carbon monoxide poisoning and need prompt medical care.",
+        "source_tags": [
+          "S12"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FIRE-A-009",
+        "text": "Get urgent medical help for someone with burns to the face, singed nasal hair, soot in the sputum, hoarseness, cough or difficulty breathing.",
+        "source_tags": [
+          "S13"
+        ],
+        "caveat": null
+      }
+    ]
+  },
+  "subsections": [
+    {
+      "subsection_id": "forest-fire",
+      "subsection_name": "Forest Fire",
+      "description": "Subsection of Fire, not a separate disaster category. The Preparation items apply if you live in or near forest.",
+      "sections": {
+        "prevention": [
+          {
+            "instruction_id": "FIRE-FF-PRV-001",
+            "text": "Never leave a fire unattended near forest. Douse it with water and stir the ashes until cold.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-PRV-002",
+            "text": "Be careful with lanterns, stoves and heaters when camping. Cool them before refuelling, avoid spills, and store fuel away from appliances.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-PRV-003",
+            "text": "Do not discard cigarettes or matches near forest, and do not leave a lit cigarette in dry vegetation.",
+            "source_tags": [
+              "S1",
+              "S2*"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-PRV-004",
+            "text": "Do not leave campfires or cigarettes unattended.",
+            "source_tags": [
+              "S13"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-PRV-005",
+            "text": "Do not burn stubble, municipal waste or dry farm waste next to forest.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          }
+        ],
+        "preparation": [
+          {
+            "instruction_id": "FIRE-FF-PRP-001",
+            "text": "Keep the contacts of the district fire service and local forest authorities handy.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-PRP-002",
+            "text": "Know your evacuation routes, keep supplies ready, practise drills and set safe meeting places.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-PRP-003",
+            "text": "Stay updated through local announcements, radio or alerts.",
+            "source_tags": [
+              "S1",
+              "S13"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-PRP-004",
+            "text": "If told to leave, evacuation comes first.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-PRP-005",
+            "text": "Before leaving, if there is time: remove combustibles (firewood, yard waste, gas cylinders and fuel cans) from the yard.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-PRP-006",
+            "text": "Before leaving, if there is time: close windows, vents and doors, and close shutters or blinds.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-PRP-007",
+            "text": "Before leaving, if there is time: fill large vessels with water.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-PRP-008",
+            "text": "Before leaving, if there is time: cut back bushes close to the house, and clear leaves from roof and gutters.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-PRP-009",
+            "text": "Before leaving, if there is time: dampen the roof, walls and adjacent trees with water.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-PRP-010",
+            "text": "Wear protective clothing: cotton or woollen, sturdy shoes and a head covering.",
+            "source_tags": [
+              "S13"
+            ],
+            "caveat": null
+          }
+        ],
+        "emergency_evacuation": [
+          {
+            "instruction_id": "FIRE-FF-EVC-001",
+            "text": "Evacuate immediately when instructed, and do not wait.",
+            "source_tags": [
+              "S1",
+              "S13"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-EVC-002",
+            "text": "Take precautions against flying sparks and ashes, and untie cattle.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-EVC-003",
+            "text": "Help children, the elderly and disabled people to evacuate.",
+            "source_tags": [
+              "S13"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-EVC-004",
+            "text": "Report the fire immediately to forest officials, police or the fire service. In an emergency call 112.",
+            "source_tags": [
+              "S13",
+              "S4",
+              "X3†"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-EVC-005",
+            "text": "Do not try to fight a large fire on your own.",
+            "source_tags": [
+              "S13"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-EVC-006",
+            "text": "If trapped, do not run uphill directly. Move sideways or downhill. Fires spread faster uphill.",
+            "source_tags": [
+              "S13"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-EVC-007",
+            "text": "If a closed door at home is hot, do not open it.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-EVC-008",
+            "text": "Do not drive through heavy smoke. If you cannot see ahead, do not risk it.",
+            "source_tags": [
+              "S1"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-EVC-009",
+            "text": "Do not block emergency vehicle routes, and do not spread rumours.",
+            "source_tags": [
+              "S13"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-EVC-010",
+            "text": "Do not enter the forest during a fire.",
+            "source_tags": [
+              "S2*"
+            ],
+            "caveat": null
+          }
+        ],
+        "after": [
+          {
+            "instruction_id": "FIRE-FF-AFT-001",
+            "text": "Do not return until authorities declare it safe.",
+            "source_tags": [
+              "S13"
+            ],
+            "caveat": null
+          },
+          {
+            "instruction_id": "FIRE-FF-AFT-002",
+            "text": "NDRF lists unstable trees, ash pits and toxic fumes as hazards after a fire.",
+            "source_tags": [
+              "S13"
+            ],
+            "caveat": "This source wording is written for firefighters."
+          }
+        ]
+      }
+    }
+  ],
+  "common_preparedness": [
+    {
+      "instruction_id": "C1",
+      "text": "Plan ahead. Find out which disasters could affect your area, how to prepare, how you would be warned, and where evacuation routes and secure places are. Find safe spots in your home for each disaster.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C2",
+      "text": "Family plan. Keep these handy for each member: out-of-state contact, local contact, nearest relative, emergency phone number, family doctor and meeting places. Decide two meeting places: one near home for fire, and one outside the neighbourhood in case you cannot return. Keep emergency numbers near phones. Decide where to stay if told to evacuate, and learn shelter locations. Discuss power outages and injuries. Know national and local helplines. Keep a family member informed if you are caught in a disaster.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C3",
+      "text": "Escape plan. Draw your home marking doors, windows, steps, large furniture, emergency supplies, extinguishers, smoke detectors, first-aid kits and main utility connections. Show at least two escape routes from each room, plus a meeting place outside. Plan each floor separately. Practise evacuation at least twice a year.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Credited to redcross.org in the source."
+    },
+    {
+      "instruction_id": "C4",
+      "text": "Utilities. Show family members how to turn off the water, gas and electricity mains.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C5",
+      "text": "Emergency bag (waterproof). Sealed drinking water and dry non-perishable food, for example biscuits. Battery torch with spare batteries, and a battery radio. Candles and matches/lighter in a waterproof container. First-aid box, essential and prescription medicines, face mask, hand sanitiser and chlorine tablets. Knife, scissors, whistle, duct tape, paper and pencils, thick ropes and cords. Phone, charger and power bank. First-aid reference (book or photocopy). Emergency plan, local map, contact numbers and family details. Important documents, extra cash/valuables, spare vehicle and house keys, glasses or other personal aids. Soap, sanitary pads, wipes, toilet paper and paper towels. Weather-appropriate dry clothes including undergarments, blankets and protective footwear.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C6",
+      "text": "When warnings are issued. Store at least 5 litres of water per day for each person and each pet. Keep at least a three-day supply of water and food. Choose long-life foods needing little or no cooking, water or refrigeration, and avoid very salty or spicy items. Cater for babies and special diets. Keep the phone charged and use SMS. Store Aadhaar, ration card, voter ID and health/vaccination records in a waterproof bag. Follow authentic sources (mausam.imd.gov.in and ndma.gov.in).",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Conflict: S1 says a week of food and water for floods and cyclones. S4 says three days. The sources are not reconciled, so both recommendations must remain visible on those pages."
+    },
+    {
+      "instruction_id": "C7",
+      "text": "First aid. Keep a first-aid box and learn basic first aid and CPR.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Detailed first-aid steps are unavailable because NDMA's First Aid page could not be read."
+    },
+    {
+      "instruction_id": "C8",
+      "text": "Children. Teach children how and when to call the national emergency number, 112.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "S4 lists 100/101/102/112; only 112 is shown here."
+    }
+  ],
+  "known_conflicts": [],
+  "limitations": [
+    {
+      "limitation_id": "FIRE-L-001",
+      "text": "Items tagged Delhi Govt come from Delhi Fire Service pages. They are Delhi Government guidance, not nationwide rules.",
+      "source_tags": [
+        "S7 · Delhi Govt",
+        "S10 · Delhi Govt",
+        "S11 · Delhi Govt"
+      ]
+    },
+    {
+      "limitation_id": "FIRE-L-002",
+      "text": "Gap: no verified Indian official guidance on re-entering a burned building, structural or utility checks, cleanup, recovery or insurance. The Delhi Fire Service pages do not provide it.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "FIRE-L-003",
+      "text": "Gap (Forest Fire): no other post-fire guidance for the public is verified.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "FIRE-L-004",
+      "text": "Tamil Nadu Forest Department public survival guidance was not found on its official site.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "FIRE-L-005",
+      "text": "Emergency number 112 is sourced to S4, X3† and X4†; X3† and X4† are excerpt-only evidence. Other state numbers are not displayed because their current status is unverified.",
+      "source_tags": [
+        "S4",
+        "X3†",
+        "X4†"
+      ]
+    },
+    {
+      "limitation_id": "FIRE-L-006",
+      "text": "Detailed first-aid steps are unavailable because NDMA's First Aid page could not be read. First aid is limited to keeping a kit and learning first aid and CPR.",
+      "source_tags": [
+        "S4"
+      ]
+    },
+    {
+      "limitation_id": "FIRE-L-007",
+      "text": "Recovery guidance is thin for every hazard.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "FIRE-L-008",
+      "text": "NDMA's site pages, SACHET guidance files, the INCOIS User Guide, DG Fire Services PDFs and the TN Forest Department PDF were blocked to automated reading.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "FIRE-L-009",
+      "text": "Source verification dates are not recorded per source. The research handover recorded access dates of 10 November 2026, but that date is not assigned to individual sources or claims.",
+      "source_tags": []
+    }
+  ],
+  "excluded_guidance": [
+    {
+      "exclusion_id": "FIRE-X-001",
+      "text": "Wet-cloth breathing and mouth-covering advice as smoke protection (S1, S2*, S10 and S13 public do's).",
+      "reason": "Nothing here shows cloth protects against toxic smoke. The only retained wet-cloth instruction is the approved door-gap measure with its caveat.",
+      "source_tags": [
+        "S1",
+        "S2*",
+        "S10 · Delhi Govt",
+        "S13"
+      ]
+    },
+    {
+      "exclusion_id": "FIRE-X-002",
+      "text": "Forest-fire water refuge and lying in a cleared hollow under wet clothes, a blanket or soil (S1).",
+      "reason": "Single-source. S13 only says open field, riverside or already burned areas, and the unverified TN portal says a stream.",
+      "source_tags": [
+        "S1",
+        "S13"
+      ]
+    },
+    {
+      "exclusion_id": "FIRE-X-003",
+      "text": "Staying inside the house as the fire front approaches (S1).",
+      "reason": "Single-source and conflicts with evacuation priority.",
+      "source_tags": [
+        "S1"
+      ]
+    },
+    {
+      "exclusion_id": "FIRE-X-004",
+      "text": "Vehicle details (drive slowly with lights on, park away from trees, lie on the floor, fuel tanks rarely explode) (S1).",
+      "reason": "Single-source and unverified. Only \"do not drive through heavy smoke\" remains.",
+      "source_tags": [
+        "S1"
+      ]
+    },
+    {
+      "exclusion_id": "FIRE-X-005",
+      "text": "S2*'s \"put out a forest fire by digging\".",
+      "reason": "Conflicts with S13's \"do not fight a large fire\".",
+      "source_tags": [
+        "S2*",
+        "S13"
+      ]
+    },
+    {
+      "exclusion_id": "FIRE-X-006",
+      "text": "NDMA fire page excerpt advice to tie sheets together as a ladder and that a shower will douse the fire.",
+      "reason": "Unsafe or unclear.",
+      "source_tags": [
+        "X1†"
+      ]
+    },
+    {
+      "exclusion_id": "FIRE-X-007",
+      "text": "\"Dial 101\", \"P.C.O.\" and the offence claim (S11 · Delhi Govt).",
+      "reason": "Delhi-specific or dated.",
+      "source_tags": [
+        "S11 · Delhi Govt"
+      ]
+    },
+    {
+      "exclusion_id": "FIRE-X-008",
+      "text": "S10 items 11-21 (flood damage, utilities and generators).",
+      "reason": "Not about fire recovery.",
+      "source_tags": [
+        "S10 · Delhi Govt"
+      ]
+    },
+    {
+      "exclusion_id": "FIRE-X-009",
+      "text": "Tamil Nadu forest-fire helpline 1800 425 4409.",
+      "reason": "Excluded under the 112-only and no-regional-content rules.",
+      "source_tags": []
+    },
+    {
+      "exclusion_id": "FIRE-X-010",
+      "text": "S10's dated Delhi phrasing.",
+      "reason": "Excluded in the approved Stage 2 content; no separate reason is recorded.",
+      "source_tags": [
+        "S10 · Delhi Govt"
+      ]
+    },
+    {
+      "exclusion_id": "FIRE-X-011",
+      "text": "Numbers 100/101/102, 1077, 1070 and the NDMA office line.",
+      "reason": "Unverified or not 112.",
+      "source_tags": []
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "S1",
+      "display_label": "S1",
+      "title": "Disaster Survival Guide (2019, DDMA-hosted)",
+      "organisation": "NDMA (Government of India)",
+      "url": "https://ddma.delhi.gov.in/sites/default/files/ddma/mom/earth.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "NDMA guide, hosted on the DDMA website."
+    },
+    {
+      "source_id": "S2",
+      "display_label": "S2*",
+      "title": "NIDM Do's & Don'ts (FEMA-adapted)",
+      "organisation": "NIDM",
+      "url": "https://nidm.gov.in/PDF/IEC/Dosnewnidm.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Footer says it was customized from FEMA and a DK Publishing book. Treat as partly non-Indian in origin. Internal source ID is S2; user-facing label is S2*."
+    },
+    {
+      "source_id": "S4",
+      "display_label": "S4",
+      "title": "Emergency Preparedness Checklist (MoHFW/NCDC checklist)",
+      "organisation": "MoHFW/NCDC",
+      "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/07/Emergency-Preparedness-Checklist.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Its escape-plan section credits redcross.org. Cited here for the emergency number 112 and the common preparedness items C1-C8."
+    },
+    {
+      "source_id": "S7",
+      "display_label": "S7 · Delhi Govt",
+      "title": "Delhi Fire Service, Fire Precautions in Residential Area",
+      "organisation": "Delhi Fire Service (Delhi Govt)",
+      "url": "https://dfs.delhi.gov.in/dfs/fire-precautions-residential-area-0",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule. Display label keeps 'Delhi Govt'."
+    },
+    {
+      "source_id": "S10",
+      "display_label": "S10 · Delhi Govt",
+      "title": "Delhi Fire Service, Fire",
+      "organisation": "Delhi Fire Service (Delhi Govt)",
+      "url": "https://dfs.delhi.gov.in/dfs/fire",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule. Display label keeps 'Delhi Govt'."
+    },
+    {
+      "source_id": "S11",
+      "display_label": "S11 · Delhi Govt",
+      "title": "Delhi Fire Service, Do and Do not",
+      "organisation": "Delhi Fire Service (Delhi Govt)",
+      "url": "https://dfs.delhi.gov.in/dfs/do-and-do-not",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Delhi Government guidance (Delhi Fire Service), not a nationwide rule. Display label keeps 'Delhi Govt'."
+    },
+    {
+      "source_id": "S12",
+      "display_label": "S12",
+      "title": "DGHS/MoHFW NPPMBI burn guide",
+      "organisation": "DGHS/MoHFW (NPPMBI)",
+      "url": "https://www.caho.in/files/NPPMBI_.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Hosted on a third-party site."
+    },
+    {
+      "source_id": "S13",
+      "display_label": "S13",
+      "title": "NDRF, Forest Fire",
+      "organisation": "NDRF",
+      "url": "https://www.ndrf.gov.in/sites/default/files/Forset%20Fire.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Source wording on post-fire hazards is written for firefighters."
+    },
+    {
+      "source_id": "X1",
+      "display_label": "X1†",
+      "title": "NDMA site (earthquake Dos & Don'ts and fire-safety pages)",
+      "organisation": "NDMA",
+      "url": "https://ndma.gov.in/Resources/awareness/fire-safety",
+      "evidence_status": "Excerpt-only evidence (search excerpt); not a fully read or fully verified source.",
+      "attribution_note": "Register also lists https://ndma.gov.in/Natural-Hazards/Earthquakes/Dos-Donts. NDMA site pages were blocked to automated reading; only search excerpts were available. In this file it appears only in an exclusion."
+    },
+    {
+      "source_id": "X3",
+      "display_label": "X3†",
+      "title": "MHA Nirbhaya/ERSS section",
+      "organisation": "MHA",
+      "url": "https://www.mha.gov.in/nirbhayaerss-section",
+      "evidence_status": "Excerpt-only evidence (search excerpt); not a fully read or fully verified source.",
+      "attribution_note": "Cited for the emergency number 112."
+    },
+    {
+      "source_id": "X4",
+      "display_label": "X4†",
+      "title": "112 India - About",
+      "organisation": "112.gov.in",
+      "url": "https://112.gov.in/about",
+      "evidence_status": "Excerpt-only evidence (search excerpt); not a fully read or fully verified source.",
+      "attribution_note": "Cited for the emergency number 112."
+    }
+  ]
+}

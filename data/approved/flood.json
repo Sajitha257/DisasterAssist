@@ -1,0 +1,461 @@
+{
+  "disaster_id": "flood",
+  "disaster_name": "Flood",
+  "project_notice": "This guide does not replace official evacuation orders or emergency services. It cannot predict disasters and shows no live alerts.",
+  "emergency_number": "112",
+  "sections": {
+    "before": [
+      {
+        "instruction_id": "FLOOD-B-001",
+        "text": "Stay calm, ignore rumours, keep your phone charged and use SMS.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-B-002",
+        "text": "Follow radio, TV or newspaper updates.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-B-003",
+        "text": "Know the safe route to the nearest shelter or raised pucca house.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-B-004",
+        "text": "Know flash-flood spots (canals, streams and drains).",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-B-005",
+        "text": "Keep documents in waterproof bags, and keep animals untied.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-B-006",
+        "text": "Store ready-to-eat food and water for at least a week.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": "S4 says three days; see C6 and known_conflicts. The sources are not reconciled."
+      },
+      {
+        "instruction_id": "FLOOD-B-007",
+        "text": "Keep dry food, water and clothes ready.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-B-008",
+        "text": "Use sandbags to seal doors and vents, and windows if water may rise that high.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-B-009",
+        "text": "Evacuate immediately when officials direct.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      }
+    ],
+    "during": [
+      {
+        "instruction_id": "FLOOD-D-001",
+        "text": "Do not enter floodwater. If you must, wear suitable footwear, avoid deep or unknown water, and use a stick to check depth.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-002",
+        "text": "Do not walk or drive through floodwater. Two feet of moving water can carry away big cars.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-003",
+        "text": "If a car stalls and will not restart, leave it.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-004",
+        "text": "Stay away from sewers, drains, culverts, electric poles and fallen wires.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-005",
+        "text": "Mark open drains and manholes with red flags or barricades.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-006",
+        "text": "Do not let children play in floodwater.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-007",
+        "text": "If evacuating: raise furniture and appliances onto beds and tables.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-008",
+        "text": "If evacuating: cover drain holes, and put sandbags in the toilet bowl to stop sewage backflow.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-009",
+        "text": "If evacuating: turn off power and gas.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-010",
+        "text": "If evacuating: move to higher ground or a shelter.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-011",
+        "text": "If evacuating: take your kit, first-aid box, valuables and documents.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-012",
+        "text": "If evacuating: make a family communication plan.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-013",
+        "text": "Eat freshly cooked or dry food kept covered, and drink boiled or chlorinated water.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-014",
+        "text": "Use disinfectant around you.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-015",
+        "text": "Do not let children or pregnant women stay on an empty stomach.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-D-016",
+        "text": "Beware of snakes.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      }
+    ],
+    "after": [
+      {
+        "instruction_id": "FLOOD-A-001",
+        "text": "Return only when officials say so.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-A-002",
+        "text": "If instructed, turn off utilities at the main switches and unplug appliances. Do not touch electrical equipment if wet.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-A-003",
+        "text": "Do not use damaged electrical goods or appliances that were in floodwater without getting them checked.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-A-004",
+        "text": "Watch for broken poles, wires, sharp objects and debris.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-A-005",
+        "text": "Do not eat food that touched floodwater.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-A-006",
+        "text": "Use mosquito nets, and watch for snakes.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-A-007",
+        "text": "Do not use the toilet or tap water if lines are damaged. Do not drink tap water until the Health Department says it is safe.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "FLOOD-A-008",
+        "text": "Clean and disinfect everything that got wet.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      }
+    ]
+  },
+  "subsections": [],
+  "common_preparedness": [
+    {
+      "instruction_id": "C1",
+      "text": "Plan ahead. Find out which disasters could affect your area, how to prepare, how you would be warned, and where evacuation routes and secure places are. Find safe spots in your home for each disaster.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C2",
+      "text": "Family plan. Keep these handy for each member: out-of-state contact, local contact, nearest relative, emergency phone number, family doctor and meeting places. Decide two meeting places: one near home for fire, and one outside the neighbourhood in case you cannot return. Keep emergency numbers near phones. Decide where to stay if told to evacuate, and learn shelter locations. Discuss power outages and injuries. Know national and local helplines. Keep a family member informed if you are caught in a disaster.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C3",
+      "text": "Escape plan. Draw your home marking doors, windows, steps, large furniture, emergency supplies, extinguishers, smoke detectors, first-aid kits and main utility connections. Show at least two escape routes from each room, plus a meeting place outside. Plan each floor separately. Practise evacuation at least twice a year.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Credited to redcross.org in the source."
+    },
+    {
+      "instruction_id": "C4",
+      "text": "Utilities. Show family members how to turn off the water, gas and electricity mains.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C5",
+      "text": "Emergency bag (waterproof). Sealed drinking water and dry non-perishable food, for example biscuits. Battery torch with spare batteries, and a battery radio. Candles and matches/lighter in a waterproof container. First-aid box, essential and prescription medicines, face mask, hand sanitiser and chlorine tablets. Knife, scissors, whistle, duct tape, paper and pencils, thick ropes and cords. Phone, charger and power bank. First-aid reference (book or photocopy). Emergency plan, local map, contact numbers and family details. Important documents, extra cash/valuables, spare vehicle and house keys, glasses or other personal aids. Soap, sanitary pads, wipes, toilet paper and paper towels. Weather-appropriate dry clothes including undergarments, blankets and protective footwear.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C6",
+      "text": "When warnings are issued. Store at least 5 litres of water per day for each person and each pet. Keep at least a three-day supply of water and food. Choose long-life foods needing little or no cooking, water or refrigeration, and avoid very salty or spicy items. Cater for babies and special diets. Keep the phone charged and use SMS. Store Aadhaar, ration card, voter ID and health/vaccination records in a waterproof bag. Follow authentic sources (mausam.imd.gov.in and ndma.gov.in).",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Conflict: S1 says a week of food and water for floods and cyclones. S4 says three days. The sources are not reconciled, so both recommendations must remain visible on those pages."
+    },
+    {
+      "instruction_id": "C7",
+      "text": "First aid. Keep a first-aid box and learn basic first aid and CPR.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Detailed first-aid steps are unavailable because NDMA's First Aid page could not be read."
+    },
+    {
+      "instruction_id": "C8",
+      "text": "Children. Teach children how and when to call the national emergency number, 112.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "S4 lists 100/101/102/112; only 112 is shown here."
+    }
+  ],
+  "known_conflicts": [
+    {
+      "conflict_id": "FLOOD-CF-001",
+      "text": "S1 recommends storing ready-to-eat food and water for at least a week (floods and cyclones). S4 recommends keeping at least a three-day supply of water and food. The sources are not reconciled; both recommendations must remain visible on this page.",
+      "source_tags": [
+        "S1",
+        "S4"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "limitation_id": "FLOOD-L-001",
+      "text": "Gap: no verified guidance on structural checks, drying out or restoring services after a flood.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "FLOOD-L-002",
+      "text": "Emergency number 112 is sourced to S4, X3† and X4†; X3† and X4† are excerpt-only evidence. Other state numbers are not displayed because their current status is unverified.",
+      "source_tags": [
+        "S4",
+        "X3†",
+        "X4†"
+      ]
+    },
+    {
+      "limitation_id": "FLOOD-L-003",
+      "text": "Detailed first-aid steps are unavailable because NDMA's First Aid page could not be read. First aid is limited to keeping a kit and learning first aid and CPR.",
+      "source_tags": [
+        "S4"
+      ]
+    },
+    {
+      "limitation_id": "FLOOD-L-004",
+      "text": "Recovery guidance is thin for every hazard.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "FLOOD-L-005",
+      "text": "NDMA's site pages, SACHET guidance files, the INCOIS User Guide, DG Fire Services PDFs and the TN Forest Department PDF were blocked to automated reading.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "FLOOD-L-006",
+      "text": "Source verification dates are not recorded per source. The research handover recorded access dates of 10 November 2026, but that date is not assigned to individual sources or claims.",
+      "source_tags": []
+    }
+  ],
+  "excluded_guidance": [
+    {
+      "exclusion_id": "FLOOD-X-001",
+      "text": "Numbers 100/101/102, 1077, 1070 and the NDMA office line.",
+      "reason": "Unverified or not 112.",
+      "source_tags": []
+    },
+    {
+      "exclusion_id": "FLOOD-X-002",
+      "text": "S2*'s bleach ratio and 10-minute boil.",
+      "reason": "Excluded in the approved Stage 2 content; no separate reason is recorded.",
+      "source_tags": [
+        "S2*"
+      ]
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "S1",
+      "display_label": "S1",
+      "title": "Disaster Survival Guide (2019, DDMA-hosted)",
+      "organisation": "NDMA (Government of India)",
+      "url": "https://ddma.delhi.gov.in/sites/default/files/ddma/mom/earth.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "NDMA guide, hosted on the DDMA website."
+    },
+    {
+      "source_id": "S2",
+      "display_label": "S2*",
+      "title": "NIDM Do's & Don'ts (FEMA-adapted)",
+      "organisation": "NIDM",
+      "url": "https://nidm.gov.in/PDF/IEC/Dosnewnidm.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Footer says it was customized from FEMA and a DK Publishing book. Treat as partly non-Indian in origin. Internal source ID is S2; user-facing label is S2*."
+    },
+    {
+      "source_id": "S4",
+      "display_label": "S4",
+      "title": "Emergency Preparedness Checklist (MoHFW/NCDC checklist)",
+      "organisation": "MoHFW/NCDC",
+      "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/07/Emergency-Preparedness-Checklist.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Its escape-plan section credits redcross.org. Cited here for the emergency number 112 and the common preparedness items C1-C8."
+    },
+    {
+      "source_id": "X3",
+      "display_label": "X3†",
+      "title": "MHA Nirbhaya/ERSS section",
+      "organisation": "MHA",
+      "url": "https://www.mha.gov.in/nirbhayaerss-section",
+      "evidence_status": "Excerpt-only evidence (search excerpt); not a fully read or fully verified source.",
+      "attribution_note": "Cited for the emergency number 112."
+    },
+    {
+      "source_id": "X4",
+      "display_label": "X4†",
+      "title": "112 India - About",
+      "organisation": "112.gov.in",
+      "url": "https://112.gov.in/about",
+      "evidence_status": "Excerpt-only evidence (search excerpt); not a fully read or fully verified source.",
+      "attribution_note": "Cited for the emergency number 112."
+    }
+  ]
+}

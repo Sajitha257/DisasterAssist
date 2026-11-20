@@ -1,0 +1,65 @@
+/* Chatbot tab styles (dark blue, orange and white). The shared da-* styles are in styles.css. */
+
+.da-chat-intro p { margin: 0.2rem 0 0.5rem; color: var(--da-muted) !important; font-size: 1.02rem; }
+.da-emergency-strip { display: inline-block; }
+.da-emergency-strip p { margin: 0; display: inline-block; padding: 0.25rem 0.8rem; border-radius: 999px;
+    background: var(--da-orange); color: #1b1b1b !important; font-size: 0.95rem; }
+.da-example-label p { margin: 0.7rem 0 0.2rem; color: var(--da-navy) !important; }
+
+/* clickable example questions */
+.da-chips-row { gap: 0.5rem !important; flex-wrap: wrap !important; }
+.gradio-container button.da-example {
+    flex: 0 1 auto !important; min-width: 0 !important; width: auto !important;
+    border: 1px solid var(--da-navy) !important; border-radius: 999px !important;
+    background: #ffffff !important; color: var(--da-navy) !important;
+    font-weight: 500; font-size: 0.92rem; padding: 0.4rem 0.9rem; text-align: left; white-space: normal;
+}
+.gradio-container button.da-example:hover { background: var(--da-orange-soft) !important; border-color: var(--da-orange-dark) !important; }
+
+.da-question textarea { font-size: 1.05rem; line-height: 1.5; }
+.da-actions { gap: 0.6rem !important; margin: 0.4rem 0 0.8rem; }
+
+/* conversation: the question, then the answer */
+.da-chat-output { margin-top: 0.4rem; }
+.da-chat-question { background: var(--da-navy); color: #ffffff; border-radius: 14px 14px 14px 4px;
+    padding: 0.7rem 1.05rem; margin: 0.3rem 0 1rem; max-width: 46rem; }
+.da-chat-who { display: block; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #ffc27a; }
+.da-chat-q-text { margin: 0.15rem 0 0; font-size: 1.05rem; line-height: 1.5; color: #ffffff; overflow-wrap: anywhere; }
+.da-chat-empty { border: 2px dashed var(--da-line); border-radius: var(--da-radius); padding: 1.1rem 1.3rem; text-align: center; color: var(--da-muted); background: #ffffff; }
+.da-chat-empty p { margin: 0.15rem 0; }
+
+/* working indicator */
+.da-chat-loading { display: flex; align-items: center; gap: 0.85rem; background: var(--da-orange-soft);
+    border: 1px solid var(--da-orange); border-left: 6px solid var(--da-orange); border-radius: 10px; padding: 0.85rem 1.1rem; color: var(--da-ink); line-height: 1.5; }
+.da-spinner { flex: 0 0 auto; width: 1.5rem; height: 1.5rem; border: 3px solid #f3cfa6; border-top-color: var(--da-orange-dark);
+    border-radius: 50%; animation: da-spin 0.9s linear infinite; }
+@keyframes da-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .da-spinner { animation-duration: 3s; } }
+
+/* answers */
+.da-chat-answer { margin-top: 0.4rem; }
+.da-answer-head { margin: 0 0 0.4rem; font-size: 0.95rem; font-weight: 700; color: var(--da-navy); text-transform: uppercase; letter-spacing: 0.04em; }
+.da-chat-answer .da-card { margin: 0.8rem 0; }
+.da-where { margin: 0 0 0.35rem; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--da-orange-dark); }
+.da-footer { margin: 1rem 0 0; font-size: 0.92rem; font-style: italic; color: var(--da-muted); }
+
+/* errors, refusals and other messages */
+.da-alert { display: block; margin: 0.3rem 0 0; padding: 0.85rem 1.1rem; border-left-width: 7px; border-radius: 10px; font-size: 1.02rem; line-height: 1.55; }
+.da-alert-title { display: block; font-weight: 800; font-size: 1.05rem; margin-bottom: 0.2rem; }
+.da-alert-error { border-left-color: var(--da-red); background: var(--da-red-soft); }
+.da-alert-error .da-alert-title { color: var(--da-red); }
+.da-alert-error .da-alert-title::before { content: "\26A0\FE0F\00a0"; }
+.da-alert-refusal { border-left-color: var(--da-violet); background: var(--da-violet-soft); }
+.da-alert-refusal .da-alert-title { color: var(--da-violet); }
+.da-alert-info { border-left-color: var(--da-blue); background: var(--da-blue-soft); }
+.da-alert-info .da-alert-title { color: var(--da-blue); }
+.da-alert-critical { border-left-color: var(--da-red); background: var(--da-red-soft); }
+.da-alert-critical .da-alert-title { color: var(--da-red); }
+.da-alert-critical .da-alert-title::before { content: "\26A0\FE0F\00a0"; }
+
+.da-about-chat { margin-top: 1rem; }
+
+@media (max-width: 700px) {
+    .gradio-container button.da-example { width: 100% !important; border-radius: 10px !important; }
+    .da-chat-question { max-width: 100%; }
+}

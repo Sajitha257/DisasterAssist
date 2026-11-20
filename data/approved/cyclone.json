@@ -1,0 +1,566 @@
+{
+  "disaster_id": "cyclone",
+  "disaster_name": "Cyclone",
+  "project_notice": "This guide does not replace official evacuation orders or emergency services. It cannot predict disasters and shows no live alerts.",
+  "emergency_number": "112",
+  "sections": {
+    "before": [
+      {
+        "instruction_id": "CYCLONE-B-001",
+        "text": "Stay calm, ignore rumours, keep your phone charged and use SMS.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-002",
+        "text": "Follow weather updates. Pass on only official information.",
+        "source_tags": [
+          "S1",
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-003",
+        "text": "Know the nearest safe high ground or cyclone shelter and the safest route, especially for storm-surge or tide warnings.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-004",
+        "text": "Move animals to safety, and keep cattle untied.",
+        "source_tags": [
+          "S2*",
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-005",
+        "text": "Keep documents and valuables in waterproof containers.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-006",
+        "text": "If you are in an evacuation area, move valuables to upper floors.",
+        "source_tags": [
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-007",
+        "text": "Secure the house and roof, and repair doors, windows and walls before the season.",
+        "source_tags": [
+          "S1",
+          "S2*",
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-008",
+        "text": "Remove dead trees and anchor loose objects (lumber, bricks, bins, signboards and zinc sheets).",
+        "source_tags": [
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-009",
+        "text": "Trim branches near the house with local authority permission.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-010",
+        "text": "Board up windows, or paste paper strips on glass to stop splinters.",
+        "source_tags": [
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-011",
+        "text": "Close doors and windows securely.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-012",
+        "text": "Keep one door or window on the lee side openable.",
+        "source_tags": [
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-013",
+        "text": "Store ready-to-eat food and water for at least a week.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": "S4 says three days; see C6 and known_conflicts. The sources are not reconciled."
+      },
+      {
+        "instruction_id": "CYCLONE-B-014",
+        "text": "Keep extra drinking water in a covered vessel and foods needing little cooking. Provide for special diets.",
+        "source_tags": [
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-015",
+        "text": "Keep a working radio with spare batteries, a torch and matches.",
+        "source_tags": [
+          "S2*",
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-016",
+        "text": "Leave low-lying beaches early, before your route to high ground floods.",
+        "source_tags": [
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-017",
+        "text": "Hold family and community drills.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-018",
+        "text": "Evacuate immediately when directed.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-B-019",
+        "text": "Fishermen: do not go to sea, tie up boats, keep a radio with spare batteries and write down important numbers.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      }
+    ],
+    "during": [
+      {
+        "instruction_id": "CYCLONE-D-001",
+        "text": "Indoors: switch off the mains, unplug appliances and turn off gas.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-D-002",
+        "text": "Indoors: keep doors and windows shut.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-D-003",
+        "text": "Indoors: rely only on official warnings.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-D-004",
+        "text": "Indoors: if your house is unsafe, leave early for a shelter.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-D-005",
+        "text": "Indoors: if you have not reached a shelter, stand below the strongest part of the house.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-D-006",
+        "text": "Indoors: if the building starts to crumble, protect yourself with mattresses or blankets, a strong table or bench, or a solid fixture.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-D-007",
+        "text": "Outdoors: do not enter damaged buildings, and find shelter quickly.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-D-008",
+        "text": "Outdoors: never stand under a tree or electric pole.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-D-009",
+        "text": "Outdoors: beware flying objects, falling trees and damaged wires.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-D-010",
+        "text": "Outdoors: in a car, do not try to outrun the cyclone. Halt at a safe place and stay inside.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-D-011",
+        "text": "During the calm \"eye\", violent wind will return from the opposite direction. Wait for the official all-clear.",
+        "source_tags": [
+          "S1",
+          "S2*",
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-D-012",
+        "text": "Stay in shelters until those in charge say you may return.",
+        "source_tags": [
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-D-013",
+        "text": "Write each child's name, address and contact number on paper in their pocket.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-D-014",
+        "text": "Drink boiled or chlorinated water.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      }
+    ],
+    "after": [
+      {
+        "instruction_id": "CYCLONE-A-001",
+        "text": "Do not go out until officially advised. If evacuated, wait to be advised to return.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-A-002",
+        "text": "Use the recommended route home, and do not rush.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-A-003",
+        "text": "Watch for broken poles and loose wires. Do not touch dangling wires.",
+        "source_tags": [
+          "S1",
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-A-004",
+        "text": "Do not enter damaged buildings.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-A-005",
+        "text": "Do not use power points or damaged equipment until an electrician checks them.",
+        "source_tags": [
+          "S1",
+          "S2*"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-A-006",
+        "text": "Drink boiled or chlorinated water.",
+        "source_tags": [
+          "S1"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-A-007",
+        "text": "Stay away from disaster areas unless you are needed to help.",
+        "source_tags": [
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-A-008",
+        "text": "Clear debris from dwellings, report losses to the authorities and tell relatives you are safe.",
+        "source_tags": [
+          "S3"
+        ],
+        "caveat": null
+      },
+      {
+        "instruction_id": "CYCLONE-A-009",
+        "text": "Psychological first aid helps after any disaster.",
+        "source_tags": [
+          "S2*"
+        ],
+        "caveat": "No detail is given."
+      }
+    ]
+  },
+  "subsections": [],
+  "common_preparedness": [
+    {
+      "instruction_id": "C1",
+      "text": "Plan ahead. Find out which disasters could affect your area, how to prepare, how you would be warned, and where evacuation routes and secure places are. Find safe spots in your home for each disaster.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C2",
+      "text": "Family plan. Keep these handy for each member: out-of-state contact, local contact, nearest relative, emergency phone number, family doctor and meeting places. Decide two meeting places: one near home for fire, and one outside the neighbourhood in case you cannot return. Keep emergency numbers near phones. Decide where to stay if told to evacuate, and learn shelter locations. Discuss power outages and injuries. Know national and local helplines. Keep a family member informed if you are caught in a disaster.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C3",
+      "text": "Escape plan. Draw your home marking doors, windows, steps, large furniture, emergency supplies, extinguishers, smoke detectors, first-aid kits and main utility connections. Show at least two escape routes from each room, plus a meeting place outside. Plan each floor separately. Practise evacuation at least twice a year.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Credited to redcross.org in the source."
+    },
+    {
+      "instruction_id": "C4",
+      "text": "Utilities. Show family members how to turn off the water, gas and electricity mains.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C5",
+      "text": "Emergency bag (waterproof). Sealed drinking water and dry non-perishable food, for example biscuits. Battery torch with spare batteries, and a battery radio. Candles and matches/lighter in a waterproof container. First-aid box, essential and prescription medicines, face mask, hand sanitiser and chlorine tablets. Knife, scissors, whistle, duct tape, paper and pencils, thick ropes and cords. Phone, charger and power bank. First-aid reference (book or photocopy). Emergency plan, local map, contact numbers and family details. Important documents, extra cash/valuables, spare vehicle and house keys, glasses or other personal aids. Soap, sanitary pads, wipes, toilet paper and paper towels. Weather-appropriate dry clothes including undergarments, blankets and protective footwear.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": null
+    },
+    {
+      "instruction_id": "C6",
+      "text": "When warnings are issued. Store at least 5 litres of water per day for each person and each pet. Keep at least a three-day supply of water and food. Choose long-life foods needing little or no cooking, water or refrigeration, and avoid very salty or spicy items. Cater for babies and special diets. Keep the phone charged and use SMS. Store Aadhaar, ration card, voter ID and health/vaccination records in a waterproof bag. Follow authentic sources (mausam.imd.gov.in and ndma.gov.in).",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Conflict: S1 says a week of food and water for floods and cyclones. S4 says three days. The sources are not reconciled, so both recommendations must remain visible on those pages."
+    },
+    {
+      "instruction_id": "C7",
+      "text": "First aid. Keep a first-aid box and learn basic first aid and CPR.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "Detailed first-aid steps are unavailable because NDMA's First Aid page could not be read."
+    },
+    {
+      "instruction_id": "C8",
+      "text": "Children. Teach children how and when to call the national emergency number, 112.",
+      "source_tags": [
+        "S4"
+      ],
+      "caveat": "S4 lists 100/101/102/112; only 112 is shown here."
+    }
+  ],
+  "known_conflicts": [
+    {
+      "conflict_id": "CYCLONE-CF-001",
+      "text": "S1 recommends storing ready-to-eat food and water for at least a week (floods and cyclones). S4 recommends keeping at least a three-day supply of water and food. The sources are not reconciled; both recommendations must remain visible on this page.",
+      "source_tags": [
+        "S1",
+        "S4"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "limitation_id": "CYCLONE-L-001",
+      "text": "Gap: no verified guidance on structural checks or repairs after a cyclone.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "CYCLONE-L-002",
+      "text": "Emergency number 112 is sourced to S4, X3† and X4†; X3† and X4† are excerpt-only evidence. Other state numbers are not displayed because their current status is unverified.",
+      "source_tags": [
+        "S4",
+        "X3†",
+        "X4†"
+      ]
+    },
+    {
+      "limitation_id": "CYCLONE-L-003",
+      "text": "Detailed first-aid steps are unavailable because NDMA's First Aid page could not be read. First aid is limited to keeping a kit and learning first aid and CPR.",
+      "source_tags": [
+        "S4"
+      ]
+    },
+    {
+      "limitation_id": "CYCLONE-L-004",
+      "text": "Recovery guidance is thin for every hazard.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "CYCLONE-L-005",
+      "text": "NDMA's site pages, SACHET guidance files, the INCOIS User Guide, DG Fire Services PDFs and the TN Forest Department PDF were blocked to automated reading.",
+      "source_tags": []
+    },
+    {
+      "limitation_id": "CYCLONE-L-006",
+      "text": "Source verification dates are not recorded per source. The research handover recorded access dates of 10 November 2026, but that date is not assigned to individual sources or claims.",
+      "source_tags": []
+    }
+  ],
+  "excluded_guidance": [
+    {
+      "exclusion_id": "CYCLONE-X-001",
+      "text": "Numbers 100/101/102, 1077, 1070 and the NDMA office line.",
+      "reason": "Unverified or not 112.",
+      "source_tags": []
+    },
+    {
+      "exclusion_id": "CYCLONE-X-002",
+      "text": "S2*'s bleach ratio and 10-minute boil.",
+      "reason": "Excluded in the approved Stage 2 content; no separate reason is recorded.",
+      "source_tags": [
+        "S2*"
+      ]
+    },
+    {
+      "exclusion_id": "CYCLONE-X-003",
+      "text": "S2*'s 1.5-hour cyclone wait.",
+      "reason": "Excluded in the approved Stage 2 content; no separate reason is recorded.",
+      "source_tags": [
+        "S2*"
+      ]
+    },
+    {
+      "exclusion_id": "CYCLONE-X-004",
+      "text": "S3's kerosene-lantern and repairs-during-the-eye items.",
+      "reason": "Excluded in the approved Stage 2 content; no separate reason is recorded.",
+      "source_tags": [
+        "S3"
+      ]
+    }
+  ],
+  "source_references": [
+    {
+      "source_id": "S1",
+      "display_label": "S1",
+      "title": "Disaster Survival Guide (2019, DDMA-hosted)",
+      "organisation": "NDMA (Government of India)",
+      "url": "https://ddma.delhi.gov.in/sites/default/files/ddma/mom/earth.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "NDMA guide, hosted on the DDMA website."
+    },
+    {
+      "source_id": "S2",
+      "display_label": "S2*",
+      "title": "NIDM Do's & Don'ts (FEMA-adapted)",
+      "organisation": "NIDM",
+      "url": "https://nidm.gov.in/PDF/IEC/Dosnewnidm.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Footer says it was customized from FEMA and a DK Publishing book. Treat as partly non-Indian in origin. Internal source ID is S2; user-facing label is S2*."
+    },
+    {
+      "source_id": "S3",
+      "display_label": "S3",
+      "title": "IMD RSMC New Delhi",
+      "organisation": "IMD",
+      "url": "https://rsmcnewdelhi.imd.gov.in/dos-and-dont-does.php",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": null
+    },
+    {
+      "source_id": "S4",
+      "display_label": "S4",
+      "title": "Emergency Preparedness Checklist (MoHFW/NCDC checklist)",
+      "organisation": "MoHFW/NCDC",
+      "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/07/Emergency-Preparedness-Checklist.pdf",
+      "evidence_status": "Read in full in the research session.",
+      "attribution_note": "Its escape-plan section credits redcross.org. Cited here for the emergency number 112 and the common preparedness items C1-C8."
+    },
+    {
+      "source_id": "X3",
+      "display_label": "X3†",
+      "title": "MHA Nirbhaya/ERSS section",
+      "organisation": "MHA",
+      "url": "https://www.mha.gov.in/nirbhayaerss-section",
+      "evidence_status": "Excerpt-only evidence (search excerpt); not a fully read or fully verified source.",
+      "attribution_note": "Cited for the emergency number 112."
+    },
+    {
+      "source_id": "X4",
+      "display_label": "X4†",
+      "title": "112 India - About",
+      "organisation": "112.gov.in",
+      "url": "https://112.gov.in/about",
+      "evidence_status": "Excerpt-only evidence (search excerpt); not a fully read or fully verified source.",
+      "attribution_note": "Cited for the emergency number 112."
+    }
+  ]
+}
